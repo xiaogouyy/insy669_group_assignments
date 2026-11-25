@@ -19,4 +19,4 @@ Code reads from `../data/` and writes to `../results/`, so run scripts and noteb
 | 2 | `case2_word_association_rules` | Group reviews by star rating and mine word association rules (support, confidence, lift) |
 | 3 | `case3_sentiment_star_rating_regression` | Score sentiment with VADER, SentiStrength and KNN, then regress star rating on the three scores |
 | 4 | `case4_lda_topic_knn_classifier` | Find topics with LDA, label one review category, then build and evaluate a KNN classifier |
-| 5 | `case5_spam_detection_tfidf_bert_knn` | Classify SMS spam with KNN on TF-IDF features (Part A) and BERT embeddings (Part C) |
+| 5 | `case5_spam_detection_tfidf_bert_knn` | Classify SMS spam: TF-IDF + KNN (A), Part B model, BERT embeddings + KNN (C), comparison (D), error analysis (E), optional challenge |
