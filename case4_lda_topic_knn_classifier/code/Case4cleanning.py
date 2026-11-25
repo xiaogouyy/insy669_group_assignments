@@ -142,8 +142,8 @@ def prepare(case3_path, source_path, output_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--case3', type=Path, default=Path('Case3_Data_Simple.xlsx'))
-    parser.add_argument('--source', type=Path, default=Path('INSY669 Dataset.xlsx'))
-    parser.add_argument('--output', type=Path, default=Path('Case4_MemberA_Cleaned_TeePublic.csv'))
+    parser.add_argument('--case3', type=Path, default=Path('../data/Case3_Data_Simple.xlsx'))
+    parser.add_argument('--source', type=Path, default=Path('../data/INSY669 Dataset.xlsx'))
+    parser.add_argument('--output', type=Path, default=Path('../data/Case4_MemberA_Cleaned_TeePublic.csv'))
     args = parser.parse_args()
     prepare(args.case3, args.source, args.output)
